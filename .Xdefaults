@@ -1,0 +1,18 @@
+! URXVT
+URxvt.scrollBar:         False
+URxvt.loginShell:        True
+URxvt.savelines:         1000
+URxvt.perl-ext-common:   default,matcher,url-select
+URxvt.keysym.M-u:        perl:url-select:select_next
+URxvt.urlLauncher:       /usr/bin/chromium
+URxvt.matcher.button:    1
+URxvt.underlineColor:    purple
+URxvt.underlineURLs:     true
+
+URxvt.font:              xft:Beep:size=7
+URxvt.boldFont:          xft:Beep:size=7
+
+URxvt.background:        #020202
+URxvt.foreground:        #C0C0C0
+URxvt.cursorColor:       white
+URxvt.buffered:          True
