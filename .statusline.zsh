@@ -60,3 +60,4 @@ else
     echo $1
 fi
 
+#  vim: set ts=4 sw=4 tw=120 ff=unix :

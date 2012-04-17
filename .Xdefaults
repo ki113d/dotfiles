@@ -16,3 +16,5 @@ URxvt.background:        #020202
 URxvt.foreground:        #C0C0C0
 URxvt.cursorColor:       white
 URxvt.buffered:          True
+
+/* vim: set ts=4 sw=4 tw=120 ff=unix :*/
