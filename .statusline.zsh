@@ -52,12 +52,6 @@ getTemp() {
 
 if [ $# -eq 0 ]; then
     echo "$(getMpd)   $(getTemp)   $(getDate)"
-elif [ $1 = "killWeechat" ]; then
-    tmux kill-session -t Weechat &> /dev/null
-    echo "$(getMpd)   $(getTemp)   $(getDate)"
-else
-    play -v 3 .sounds/buzz.wav &> /dev/null &
-    echo $1
 fi
 
 #  vim: set ts=4 sw=4 tw=120 ff=unix :
