@@ -47,4 +47,4 @@ alias vps="ssh -i ~/.ssh/vps.pem root@ec2-23-20-243-42.compute-1.amazonaws.com"
 # Highlighting
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root)
 
-
+#  vim: set ts=4 sw=4 tw=120 ff=unix :
