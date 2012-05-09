@@ -1,5 +1,3 @@
-" set UTF-8 encoding
-set enc=utf-8
 set fenc=utf-8
 set termencoding=utf-8
 
@@ -74,20 +72,20 @@ set completeopt=menuone,menu,longest,preview
 
 "---KEYBINDINGS!!!---"
 " Compile C code "
-nmap <C-c> :call CompileRunCC() <CR>
-inoremap <C-c> <esc>:call CompileRunCC() <CR>
+nmap <C-c> :call CompileRunGpp() <CR>
+inoremap <C-c> <esc>:call CompileRunGpp() <CR>
 " Fold code and/or comments "
 noremap <silent> <C-d> za
 inoremap <silent> <C-d> <esc>za<down>i<up>
 " Rebind esc to ctrl+e
 inoremap <silent> <C-e> <esc>
 " Completion etc
-"imap <silent> <buffer> . .<C-x><C-o>
+imap <silent> <buffer> . .<C-x><C-o>
 
 "---FUNCTIONS!!!---"
-func! CompileRunCC()
+func! CompileRunGpp()
     exec "w"
-    exec "!clear;cc % -o %<; echo Executing %<; echo ; ./%<"
+    exec "!clear;g++ % -o %<; echo Executing %<; echo ; ./%<"
 endfunc
 
 func! AppendModeline()

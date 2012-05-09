@@ -53,5 +53,3 @@ getTemp() {
 if [ $# -eq 0 ]; then
     echo "$(getMpd)   $(getTemp)   $(getDate)"
 fi
-
-#  vim: set ts=4 sw=4 tw=120 ff=unix :

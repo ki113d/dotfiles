@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/usr/home/ki113d/Downloads'
 let g:netrw_dirhist_2='/usr/home/ki113d/.config'
 let g:netrw_dirhist_3='/home/ki113d/.ncmpcpp'
+let g:netrw_dirhist_4='/home/ki113d/Sources/Supybot-plugins/Twitter'
+let g:netrw_dirhist_5='/home/ki113d/Sources/Supybot-plugins/GeekQuote'
+let g:netrw_dirhist_6='/home/ki113d/.ncmpcpp'
+let g:netrw_dirhist_7='/home/ki113d/Arenea'
+let g:netrw_dirhist_8='/home/ki113d/Downloads/lol/speedometer-2.8'

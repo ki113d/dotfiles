@@ -43,8 +43,8 @@ alias ls="/usr/bin/vendor_perl/ls++"
 alias ..="cd .."
 alias rs="xsetroot -name lol"
 alias pacman="pacman-color"
-alias vps="ssh -i ~/.ssh/vps.pem root@ec2-23-20-243-42.compute-1.amazonaws.com"
+alias vps="ssh -i ~/.ssh/vps.pem root@23.23.200.216"
 # Highlighting
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root)
 
-#  vim: set ts=4 sw=4 tw=120 ff=unix :
+
